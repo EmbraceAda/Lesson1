@@ -2,13 +2,86 @@
 <html>
     <head>
         <title>Lesson 1</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap" rel="stylesheet">
+
+        <style>
+
+            body {
+                padding: 0px;
+                margin: 0px;
+                font-family: 'Roboto', sans-serif;
+                font-size: larger;
+            }
+
+            #logo {
+                border-radius: 200px;
+                width: 70px;
+                height: 70px;
+                margin-right: auto;
+                background-color: black;
+            }
+
+            header {
+                display: flex;
+                /* background-color: red; */
+                justify-content: center;
+                align-items: center;
+                margin: 20px;
+                padding: 20px;
+            }
+
+            nav {
+                display: inline;
+            }
+
+            nav > ul > li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+
+            nav > ul > li > button {
+                border: none;
+                padding: 20px;
+                background-color: black;
+                border-radius: 20px;
+                color: white;
+            }
+
+            #wrapper {
+
+                width: 90%;
+                height: 500px;
+                margin: 0 auto;
+                background-color: #757575;
+            }
+
+        </style>
     </head>
     <body>
 
         <header>
+
+            <div id="logo">
+
+            </div>
+
             <nav>
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact Us</a></li>
+                    <li><button>Login</button></li>
+                </ul>
+
                 
             </nav>
         </header>
+
+        <div id="wrapper">
+
+        </div>
     </body>
 </html>
